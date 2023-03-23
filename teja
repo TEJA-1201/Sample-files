@@ -44,3 +44,48 @@ git status
 git commit -m "label"
 git status
 git push
+----------------------------------------------------------------
+rm -rf file name
+mkdir filename-dir
+ls
+cd file-name-dir/
+touch f1 f2 f3
+cd ..
+git status
+git add .
+git status
+git commit -m "lable"
+git pull --rebase
+git push
+rm -rf filename
+-----------------------------------------------------------------------
+Log's
+git log -n ( recent added logs)
+git log --oneline ( single line logs )
+git log --oneline -n ( single line / recent added logs)
+git log --author=name ( author name)
+git log --author=name -n (author name /recent added logs)
+git log --author=name --oneline (author name/oneline logs)
+git log --author=name --oneline -n ( author name/oneline logs/recent added logs)
+git log --grep="label" ( label message )
+git log -- file/dir ( file /dir)
+git log --since=yy-mm-dd ( 2021-2015) 
+or
+git log --after=yy-mm-dd 
+git log --until=yy-mm-dd( 2015-2013)
+or
+git log --before=yy-mm-dd
+git log --since=yy-mm-dd --until=yy-mm-dd ( 2017-2012)
+or 
+git log --after=yy-mm-dd --before=yy-mm-dd
+git log --since="yy-mm-dd 00:00" --until="yy-mm-dd 00:00"( 24hr, any month , with time )
+ -----------------------------------------------------------------------------------------
+ Branch
+ git branch
+ git branch branch-name
+ git branch
+ git checkout branch-name
+ git merge branch-name
+ git branch -d branch-name (Local branch)
+
+
